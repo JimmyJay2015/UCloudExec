@@ -1,0 +1,1 @@
+awk -F "UCanUup" '{num += NF -1} END{print num}' $1
